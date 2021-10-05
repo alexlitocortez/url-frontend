@@ -1,27 +1,66 @@
+
 .headerBar {
     display: flex;
+    position: relative;
+    top: 2rem;
+    margin-left: 2rem;
 }
 
 .logoFont {
-    font-size: 18px;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 .firstMargin {
-    margin-left: 10px;
+    margin-left: 3rem;
     font-weight: 700;
     cursor: pointer;
+    color: #bfbfbf;
+    position: relative;
+    top: 0.7rem;
+}
+
+.firstMargin:hover {
+    color: black;
 }
 
 .margin {
-    margin-left: 10px;
+    margin-left: 2rem;
     font-weight: 700;
     cursor: pointer;
+    color: #bfbfbf;
+    position: relative;
+    top: 0.7rem;
+}
+
+.margin:hover {
+    color: black;
+}
+
+.login {
+    font-weight: 700;
+    color: #bfbfbf;
+}
+
+.login:hover {
+    color: black;
 }
 
 .button {
     background-color: #2ACFCF;
     color: white;
-    border-radius: 10%;
-    padding: 5px;
+    border-radius: 12px;
+    padding: 10px;
+    margin-left: 2em;
+    position: relative;
+    bottom: 0.5em;
+    width: 5rem;
+}
+
+.headerTwo {
+    display: flex;
+    position: relative;
+    top: 0.7rem;
+    float: right;
+    margin-right: 5rem;
 }

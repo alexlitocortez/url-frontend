@@ -1,10 +1,9 @@
 import React from 'react'
-import styled from 'styled-components'
 import './Header.css';
 
 function Header() {
     return (
-        <div>
+        <div className='wholeHeaderBar'>
             <div className='headerBar'>
                 <div className='logoFont'>
                 Shortly
@@ -18,12 +17,14 @@ function Header() {
                     <div className='margin'>
                         Resources
                     </div>
-                        <div>
-                            Login
-                        </div>
-                        <div className='button'>
-                            Sign Up
-                        </div>
+            </div>
+            <div className='headerTwo'>
+                <div className='login'>
+                    Login
+                </div>
+                <div className='button'>
+                    Sign Up
+                </div>
             </div>
         </div>
     )
