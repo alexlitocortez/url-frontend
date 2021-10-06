@@ -1,0 +1,41 @@
+.heroSection {
+    position: relative;
+    top: 10rem;
+    float: left;
+    margin-left: 2rem;
+}
+
+.heroHeaderText {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.heroHeaderTextTwo {
+    position: relative;
+    float: left;
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.miniText {
+    font-size: 18px;
+    color: gray;
+    text-align: left;
+    line-height: 2rem;
+}
+
+.buttonTwo {
+    background-color: #2ACFCF;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 22px;
+    padding: 12px;
+    position: relative;
+    top: 2rem;
+    width: 10rem;
+    float: left;
+    cursor: pointer;
+    border: none;
+}
+
