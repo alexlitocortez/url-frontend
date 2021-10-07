@@ -55,6 +55,7 @@
     position: relative;
     bottom: 0.5em;
     width: 5rem;
+    cursor: pointer;
 }
 
 .headerTwo {
