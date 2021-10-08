@@ -1,0 +1,147 @@
+.header {
+    position: relative;
+    top: 10rem;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    color: #3b3054;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.bodyText {
+    font-size: 16px;
+    color: #3b3b3d;
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+
+.boxGrid {
+    background-color: lightgray;
+    position: relative;
+    top: 17rem;
+}
+
+.firstBox {
+    position: relative;
+    bottom: 2rem;
+    left: 11rem;
+    background-color: white;
+    padding: 2rem;
+    text-align: left;
+    width: 18rem;
+}
+
+.greenlineOne {
+    background-color: #2acfcf;
+    color: #2acfcf;
+    width: 2rem;
+    height: 7px;
+    position: relative;
+    left: 20rem;
+    bottom: 5.5rem;
+}
+
+.circle {
+    background-color: #3B3054;
+    border-radius: 90%;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    bottom: 4rem;
+}
+
+.brandIcon {
+    background: url('/Users/l/url-frontend/src/images/icon-brand-recognition.svg');
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 18px;
+    top: 16px;
+}
+
+.firstBoxHeader {
+    color: #3b3b3d;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.firstBoxText {
+    position: relative;
+    line-height: 2rem;
+}
+
+.secondBox {
+    position: relative;
+    left: 35rem;
+    bottom: 19rem;
+    background-color: white;
+    padding: 2rem;
+    text-align: left;
+    width: 18rem;
+}
+
+.greenlineTwo {
+    background-color: #2acfcf;
+    width: 2rem;
+    height: 7px;
+    position: relative;
+    left: 20rem;
+    bottom: 8.5rem;
+}
+
+.detailedRecords {
+    background: url('/Users/l/url-frontend/src/images/icon-detailed-records.svg');
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.secondBoxHeader {
+    color: #3b3b3d;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.secondBoxText {
+    position: relative;
+    line-height: 2rem;
+}
+
+.thirdBox {
+    position: relative;
+    left: 59rem;
+    bottom: 36rem;
+    background-color: white;
+    text-align: left;
+    width: 18rem;
+    padding: 2rem;
+}
+
+.fullyCustomizable {
+    background: url('/Users/l/url-frontend/src/images/icon-fully-customizable.svg');
+    width: 48px;
+    height: 40px;
+    position: relative;
+    left: 16px;
+    top: 20px;
+}
+
+.thirdBoxHeader {
+    color: #3b3b3d;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.thirdBoxText {
+    position: relative;
+    line-height: 2rem;
+}
