@@ -1,0 +1,34 @@
+
+.startedSection {
+    position: relative;
+    top: 270px;
+    height: 200px;
+    background: conic-gradient(#3b3054 40deg, #4B406B 40deg);
+}
+
+.moneyMaker {
+    font-size: 50px;
+    color: black;
+    position: relative;
+    top: 40px;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: 700;
+}
+
+.startedSectionButton {
+    background-color: #2ACFCF;
+    border: none;
+    color: white;
+    padding: 15px;
+    width: 12rem;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    top: 3rem;
+    cursor: pointer;
+}
+
+
+
