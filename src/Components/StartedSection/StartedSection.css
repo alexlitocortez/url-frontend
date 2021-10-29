@@ -1,9 +1,11 @@
 
 .startedSection {
     position: relative;
-    top: 270px;
+    top: 160px;
     height: 200px;
-    background: conic-gradient(#3b3054 40deg, #4B406B 40deg);
+    background: url('/Users/l/url-frontend/src/images/bg-boost-desktop.svg');
+    background-color: #3b3054;
+    z-index: 999;
 }
 
 .moneyMaker {
@@ -14,6 +16,7 @@
     margin-bottom: 1rem;
     color: white;
     font-weight: 700;
+    z-index: 998;
 }
 
 .startedSectionButton {
