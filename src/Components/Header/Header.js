@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css';
 
-function Header() {
+function Header(toggle) {
     return (
         <div className='wholeHeaderBar'>
             <div className='headerBar'>
@@ -31,4 +31,5 @@ function Header() {
 }
 
 export default Header
+
 

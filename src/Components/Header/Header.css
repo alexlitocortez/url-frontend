@@ -66,7 +66,7 @@
     margin-right: 5rem;
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 414px) and (max-width: 812px) {
     .firstMargin {
         display: none;
     }
@@ -74,6 +74,8 @@
     .margin {
         display: none;
     }
+
+    .headerTwo {
+        display: none;
+    }
 }
-
-

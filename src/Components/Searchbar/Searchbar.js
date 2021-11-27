@@ -8,13 +8,8 @@ import Container from '@material-ui/core/Container';
 function Searchbar() {
     return (
         <div>
-            <div className='backgroundColor'>
-                <div className='inputBackground'>
-                    <Container className='inputPlacement'>
-                        <input className='searchBar' type='text' placeholder='Shorten a link here...'></input>
-                        <button className='buttonInput'>Shorten It!</button>
-                    </Container>
-                </div>
+            <div>
+                
             </div>
         </div>
     )

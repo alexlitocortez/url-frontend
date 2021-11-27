@@ -1,0 +1,114 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 60% auto;
+    gap: 1rem;
+    padding: 2rem 1.75rem;
+    margin: 3rem 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header__content__heading {
+    display: block;
+    font-size: 4.5rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 1.125;
+    color: #35323e;
+    text-align: left;
+}
+
+
+.header__content__info {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #9e9aa7;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.btn {
+    position: relative;
+    font: inherit;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .5px;
+    color: #fff;
+    border: none;
+    border-radius: 100vmin;
+    background-color: #2acfcf;
+    isolation: isolate;
+    cursor: pointer;
+    padding: 1rem;
+    width: 9rem;
+    float: left;
+}
+
+.header__image {
+    display: block;
+    background: url('/Users/l/url-frontend/src/images/illustration-working.svg');
+    width: 700px;
+    height: 480px;
+    margin-left: 3rem;
+}
+
+.backgroundImage {
+    background: url('/Users/l/url-frontend/src/images/illustration-working.svg');
+    width: 600px;
+    height: 480px;
+    position: relative;
+    float: right;
+    left: 3em;
+    bottom: 11em;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 830px) {
+    .header {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .header__content {
+        max-width: 45ch;
+        width: 100%;
+    }
+
+    .header__content__heading {
+        text-align: center;
+        font-size: 2.25rem;
+        margin-right: 8rem;
+    }
+
+    .header__content__info {
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 1rem;
+        position: relative;
+        left: calc(50% - 285px)
+    }
+
+    .btn {
+        position: relative;
+        left: calc(50% - 150px);
+        width: 10rem;
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
