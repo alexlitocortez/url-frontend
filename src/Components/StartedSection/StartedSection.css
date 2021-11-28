@@ -1,37 +1,52 @@
 
-.startedSection {
+
+.booster {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
     position: relative;
-    top: 160px;
-    height: 200px;
-    background: url('/Users/l/url-frontend/src/images/bg-boost-desktop.svg');
+    isolation: isolate;
+    width: 100%;
+    padding: 3rem 2rem;
     background-color: #3b3054;
-    z-index: 999;
 }
 
-.moneyMaker {
-    font-size: 50px;
-    color: black;
+.headerStarted {
+    font-size: 3rem;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    margin-bottom: 0%;
+}
+
+.btnStarted {
+    font-size: 8rem;
+    padding: 1rem 1.75rem;
     position: relative;
-    top: 40px;
-    margin-bottom: 1rem;
-    color: white;
-    font-weight: 700;
-    z-index: 998;
-}
-
-.startedSectionButton {
-    background-color: #2ACFCF;
+    bottom: 1.5rem;
+    font: inherit;
+    font-weight: bolder;
+    letter-spacing: .5px;
+    color: #fff;
     border: none;
-    color: white;
-    padding: 15px;
-    width: 12rem;
-    font-size: large;
-    font-weight: bold;
-    border-radius: 20px;
-    position: relative;
-    top: 3rem;
+    border-radius: 100vmin;
+    background-color: #2acfcf;
+    isolation: isolate;
     cursor: pointer;
+    width: 10rem;
+    margin-top: 1rem;
 }
 
-
-
+.booster-image {
+    background-image: url('/Users/l/url-frontend/src/images/bg-boost-desktop.svg');
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 15rem;
+    width: 100%;
+    height: 100%;
+}

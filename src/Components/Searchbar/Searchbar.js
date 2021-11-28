@@ -8,8 +8,16 @@ import Container from '@material-ui/core/Container';
 function Searchbar() {
     return (
         <div>
-            <div>
-                
+            <div className='shorten_wrapper'>
+                <div className='shortener'>
+                    <div className='shortener__input-wrapper'>
+                        <input type='text' placeholder='Shorten a link here...' className='shortener_input'></input>
+                    </div>
+                    <button className='btn shortener-button'>
+                        Shorten it!
+                    </button>
+                    <div className='backgroundImage'></div>
+                </div>
             </div>
         </div>
     )

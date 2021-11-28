@@ -1,69 +1,7 @@
 
-.footerContainer {
-    background-color: #232027;
-    position: relative;
-    top: 150px;
-    height: 300px;
-}
-
-.footerHeader {
-    font-size: 32px;
-    font-weight: bold;
-    color: white;
-    margin-left: 12rem;
-    margin-right: 12rem;
-    margin-top: 5rem;
-}
-
-.footerOptions {
-    display: flex;
-}
-
-.footerOptionHeader {
-    color: white;
-    font-weight: bold;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-    margin-right: 10rem;
-    text-align: left;
-    font-size: 24px;
-}
-
-.footerOptionText {
-    color: lightgray;
-    text-align: left;
-    font-size: 16px;
-    line-height: 2rem;
-}
-
-.social-icons {
-    display: flex;
-    margin-top: 5.5rem;
-}
-
-.facebook {
-    background: url('/Users/l/url-frontend/src/images/icon-facebook.svg');
-    width: 22px;
-    height: 20px;
-    margin-right: 1rem;
-}
-
-.twitter {
-    background: url('/Users/l/url-frontend/src/images/icon-twitter.svg');
-    width: 24px;
-    height: 20px;
-    margin-right: 1rem;
-}
-
-.pinterest {
-    background: url('/Users/l/url-frontend/src/images/icon-pinterest.svg');
-    width: 24px;
-    height: 24px;
-    margin-right: 1rem;
-}
-
-.instagram {
-    background: url('/Users/l/url-frontend/src/images/icon-instagram.svg');
-    width: 24px;
-    height: 24px;
+.footer {
+    width: 100%;
+    background-color: #232127;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
