@@ -2,47 +2,48 @@ import React from 'react';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 import { NavData } from '/Users/l/url-frontend/src/Components/data/NavData.js';
-import { Typography } from '@material-ui/core';
-import Grid from '@material-ui/core/Grid';
+import { bool } from 'prop-types';
 import './MenuBar.css';
 
 
-const DropdownContainer = styled.div`
-    position: fixed;
-    z-index: 999;
-    width: 95vw;
-    padding: 1.5rem 2rem;
-    border-radius: 0.5rem;
-    background-color: #3b3054;
-    display: grid;
-    align-items: center;
-    top: 0;
-    left: 0;
-    transition: 0.3s ease-in-out;
-    opacity: ${({open}) => (open ? `1` : `0` )};
-    top: ${({open}) => (open ? '0' : '-100%' )};
-`;
+const DropdownContainer = styled.nav`
+    display: none;
 
-
-const Icon = styled.div`
-    position: absolute;
-    top: 1.2rem;
-    right: 1.5rem;
-    background: transparent;
-    font-size: 2rem;
-    cursor: pointer;
-    outline: none;
+    @media screen and (max-width: 760px) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 999;
+        width: 100vw;
+        height: 80vh;
+        text-align: left;
+        position: absolute;
+        padding: 1.5rem 2rem;
+        border-radius: 0.5rem;
+        background-color: #3b3054;
+        top: 0;
+        transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+        transition: 0.3s ease-in-out;
+    }
 `;
 
 const CloseIcon = styled(FaTimes)`
     color: #000d1a;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    color: #fff;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
 `;
 
-const DropdownDashboard = ({open, toggle}) => {
+const DropdownDashboard = ({ open, setOpen }) => {
 
     return (
         <div>
-            <DropdownContainer>
+            <DropdownContainer open={open}>
+                <CloseIcon open={open} onClick={() => setOpen(!open)} />
                 <ul className='nav-list'>
                     <li className='nav-list-item'>Features</li>
                     <li className='nav-list-item'>Pricing</li>
@@ -56,4 +57,9 @@ const DropdownDashboard = ({open, toggle}) => {
     )
 }
 
-export default DropdownDashboard    
+DropdownDashboard.propTypes = {
+    open: bool.isRequired,
+}
+
+export default DropdownDashboard  
+

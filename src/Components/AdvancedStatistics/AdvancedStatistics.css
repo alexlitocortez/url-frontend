@@ -159,7 +159,11 @@
 
 @media screen and (max-width: 1080px) {
     .statistics__articles_two {
-        gap: 4rem;
+        gap: 5rem;
+    }
+
+    .statistics__articles_two:nth-child(3) {
+        top: 0;
     }
 }
 

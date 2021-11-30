@@ -4,6 +4,9 @@ import Grid from '@material-ui/core/Grid';
 import Box from '@material-ui/core/Box';
 import Container from '@material-ui/core/Container';
 
+import SearchbarFunction from './SearchbarFunction';
+
+
 
 function Searchbar() {
     return (
@@ -13,7 +16,7 @@ function Searchbar() {
                     <div className='shortener__input-wrapper'>
                         <input type='text' placeholder='Shorten a link here...' className='shortener_input'></input>
                     </div>
-                    <button className='btn shortener-button'>
+                    <button className='btn shortener-button' onClick>
                         Shorten it!
                     </button>
                     <div className='backgroundImage'></div>
@@ -22,6 +25,8 @@ function Searchbar() {
         </div>
     )
 }
+
+<script src='SearchbarFunction.js'></script>
 
 export default Searchbar
 

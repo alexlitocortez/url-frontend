@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { bool, func } from 'prop-types';
 import { FaBars } from 'react-icons/fa';
 import styled from 'styled-components';
 
@@ -25,13 +26,19 @@ const MenuBars = styled(FaBars)`
 `;
 
 
-function Hamburger({toggle}) {
+
+
+function Hamburger({ open, setOpen }) {
     return (
         <div>
-            <MenuBars onClick={toggle} />
+            <MenuBars open={open} onClick={() => setOpen(!open)} />
         </div>
     )
 }
 
-export default Hamburger
+Hamburger.propTypes = {
+    open: bool.isRequired,
+    setOpen: func.isRequired
+}
 
+export default Hamburger
